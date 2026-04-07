@@ -1,0 +1,35 @@
+configuration {
+    font: "Commit Mono 14";
+}
+
+* {
+    /* Polybar Color Palette */
+    background:                  rgba ( 26, 28, 30, 80 % ); /* Based on #1a1c1e */
+    background-alt:              rgba ( 60, 65, 69, 100 % ); /* #3c4145 */
+    foreground:                  rgba ( 216, 210, 193, 100 % ); /* #d8d2c1 */
+    primary:                     rgba ( 201, 169, 89, 100 % ); /* #c9a959 */
+    secondary:                   rgba ( 74, 100, 119, 100 % ); /* #4a6477 */
+    alert:                       rgba ( 140, 63, 54, 100 % ); /* #8c3f36 */
+    disabled:                    rgba ( 75, 81, 87, 100 % ); /* #4b5157 */
+
+    normal-foreground:           @foreground;
+    alternate-normal-foreground: @foreground;
+    selected-normal-foreground:  @primary;
+    
+    normal-background:           rgba ( 0, 0, 0, 0 % );
+    alternate-normal-background: rgba ( 0, 0, 0, 0 % );
+    selected-normal-background:  @background-alt;
+
+    active-foreground:           @secondary;
+    selected-active-foreground:  @secondary;
+    active-background:           @normal-background;
+    
+    urgent-foreground:           @alert;
+    selected-urgent-foreground:  @alert;
+    urgent-background:           @normal-background;
+
+    border-color:                @primary;
+    separatorcolor:              @disabled;
+    spacing:                     2;
+    background-color:            rgba ( 0, 0, 0, 0 % );
+}

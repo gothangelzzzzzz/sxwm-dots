@@ -1,0 +1,38 @@
+[global]
+    #Display 
+    padding = 12
+    horizontal_padding = 12
+    
+    # Matches your Commit Mono font and size 14.0 
+    font = Commit Mono 14
+    
+    # Geometry and Appearance
+    width = 600
+    height = 400
+    origin = top-right
+    offset = 10x66
+    frame_width = 4
+     
+    # Transparency	
+    transparency = 8 
+
+    # Colors  
+    separator_color = frame
+    frame_color = "#9a7e22"  
+
+[urgency_low]
+    background = "#1a1c1e"
+    foreground = "#d8d2c1"
+    timeout = 5
+
+[urgency_normal]
+    background = "#1a1c1e"
+    foreground = "#d8d2c1"
+    timeout = 10
+
+[urgency_critical]
+    background = "#1a1c1e"
+    foreground = "#d8d2c1"
+    # Using your 'red' for the frame on critical alerts 
+    frame_color = "#8c3f36"
+    timeout = 0

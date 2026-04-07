@@ -1,0 +1,38 @@
+[window]
+padding = { x = 12, y = 12 }
+dynamic_padding = true
+opacity = 0.92
+blur = true
+
+[font]
+normal = { family = "Commit Mono", style = "Regular" }
+bold = { family = "Commit Mono" , style = "Bold" }
+size = 14.0
+
+[colors.primary]
+background = '#1a1c1e'
+foreground = '#d8d2c1'
+
+[colors.normal]
+black   = '#26292c'
+red     = '#8c3f36'
+green   = '#5a633e'
+yellow  = '#c9a959'
+blue    = '#4a6477'
+magenta = '#6b5a68'
+cyan    = '#8ba1a3'
+white   = '#d8d2c1'
+
+[colors.bright]
+black   = '#4b5157'
+red     = '#a6544a'
+green   = '#737f51'
+yellow  = '#e0bd6e'
+blue    = '#5e7e96'
+magenta = '#877483'
+cyan    = '#a3b7b9'
+white   = '#f2ece0'
+
+[cursor]
+
+unfocused_hollow = true
