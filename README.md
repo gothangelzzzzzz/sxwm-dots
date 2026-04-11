@@ -6,3 +6,5 @@ in this build i have
 - dunst
 - picom // Shotout wh1tepearl/Solyn for picom files
 - alacritty
+### Font im usin
+im using Commit Mono from AUR: https://aur.archlinux.org/packages/ttf-commit-mono
