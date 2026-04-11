@@ -4,5 +4,5 @@ in this build i have
 - rofi
 - polybar
 - dunst
-- picom (picom-ftlabs)
-- and obviously sxwm
+- picom // Shotout wh1tepearl/Solyn for picom files
+- alacritty
