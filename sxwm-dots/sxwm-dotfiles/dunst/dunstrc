@@ -3,7 +3,7 @@
     padding = 12
     horizontal_padding = 12
     
-    # Matches your Commit Mono font and size 14.0 
+    # Font 
     font = Commit Mono 14
     
     # Geometry and Appearance
